@@ -2,9 +2,14 @@ package edu.uniquindio.co.pokedex.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
+import edu.uniquindio.co.pokedex.R
+
+/** Fuente pixelada del mockup: solo para títulos, números y etiquetas. */
+val PressStart2P = FontFamily(Font(R.font.press_start_2p))
 
 // Set of Material typography styles to start with
 val Typography = Typography(
